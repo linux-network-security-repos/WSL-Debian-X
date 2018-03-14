@@ -12,11 +12,11 @@ Tweaks to run Kali Linux desktop panels and gui apps on Windows 10
    https://sourceforge.net/projects/vcxsrv/  
 
 ### Starting the GUI:  
-As normal user:  
+As root: 
                 ```
                 ~/start-xfce  
                 ```   
-As root:  
+As normal user: 
                 ```
                 sudo /root/xtart-xfce  
                 ```   
