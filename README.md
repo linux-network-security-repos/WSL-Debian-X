@@ -5,8 +5,8 @@ Tweaks to run Debian Linux desktop panels and gui apps on Windows 10
 1. Start debian in Windows 10 as normal, unprivileged user  
 2. Run  
    ```
-   wget https://raw.githubusercontent.com/Re4son/WSL-Kali-X/master/install-WSL-Kali-X  
-   bash ./install-WSL-Kali-X  
+   wget https://raw.githubusercontent.com/diveyez/WSL-Debian-X/master/install-WSL-Debian-X  
+   bash ./install-WSL-Debian-X  
    ```  
 3. Download and install VcXsrv X Server from here:  
    https://sourceforge.net/projects/vcxsrv/  
