@@ -1,8 +1,8 @@
-# WSL-Kali-X  
-Tweaks to run Kali Linux desktop panels and gui apps on Windows 10  
+# WSL-Debian-X
+Tweaks to run Debian Linux desktop panels and gui apps on Windows 10  
 
 ### Installation:  
-1. Start kali in Windows 10 as normal, unprivileged user  
+1. Start debian in Windows 10 as normal, unprivileged user  
 2. Run  
    ```
    wget https://raw.githubusercontent.com/Re4son/WSL-Kali-X/master/install-WSL-Kali-X  
