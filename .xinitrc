@@ -5,7 +5,7 @@ touch .Xdefaults
 xrdb -merge .Xdefaults &
  
 ##export XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0 
-export OOO_FORCE_DESKTOP=gnome
+export OOO_FORCE_DESKTOP=xfce4
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
