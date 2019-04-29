@@ -5,5 +5,5 @@ sleep 2
 sleep 2
 cd
 sudo /etc/init.d/dbus restart
-dbus-launch --exit-with-session ~/.xsession
+dbus-launch --exit-with-session ~/.xsession --disable-wm-check
 sudo /etc/init.d/dbus stop
