@@ -3,7 +3,7 @@
 echo -e "\e[92m[+]\e[96m Installing XFCE4, this will take a while\e[0m"
 sudo apt update
 sudo apt full-upgrade -y
-sudo apt install -y xfce4 xfce4-goodies xorg xrdp compton
+sudo apt install -y xfce4 xfce4-goodies xorg xrdp compton tmux screen htop
 ################################################################################
 cd
 echo -e "\e[92m[+]\e[96m Configuring XRDP to listen on port 3390 (but not starting the service)...\e[0m"
