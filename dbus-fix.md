@@ -23,6 +23,10 @@ In the event that dbus still misbehaves, we will be using this with the startxfc
 
 ```
 bash -l -c "sudo /etc/init.d/dbus start"
-bash -l -c "DISPLAY=localhost:0 dbus-launch --autolaunch $(cat /etc/machine-id) --binary-syntax --close-stderr"
-bash -l -c "DISPLAY=localhost:0 gnome-terminal"
+bash -l -c "DISPLAY=:0 dbus-launch --autolaunch $(cat /etc/machine-id) --binary-syntax --close-stderr"
+bash -l -c "DISPLAY=:0 gnome-terminal"
+```
+
+```
+chmod u+s /usr/bin/Xorg
 ```
