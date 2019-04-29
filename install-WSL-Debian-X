@@ -11,13 +11,13 @@ sudo sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
 ################################################################################
 echo -e "\e[92m[+]\e[96m Adding some settings to ~./bashrc\e[0m"
 echo '## enable xcfe launch in WSL
-export DISPLAY=localhost:0
+export DISPLAY=:0
 export XDG_RUNTIME_DIR=~/runtime
 export RUNLEVEL=3
 LANG="en_US.utf8"' >> ~/.bashrc
-export DISPLAY=localhost:0
+export DISPLAY=:0
 sudo echo '## enable xcfe launch in WSL
-export DISPLAY=localhost:0
+export DISPLAY=:0
 export XDG_RUNTIME_DIR=~/runtime
 export RUNLEVEL=3
 LANG="en_US.utf8"' >> /root/.bashrc
@@ -35,7 +35,7 @@ sudo ln -s /root/.xinitrc /root/.xsession
 echo -e "\e[92m[+]\e[96m Changing default panel settings for xfce\e[0m"
 sudo wget --no-hsts -O /etc/xdg/xfce4/panel/default.xml https://raw.githubusercontent.com/diveyez/WSL-Debian-X/master/default.xml
 sudo wget --no-hsts -O /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml https://raw.githubusercontent.com/diveyez/WSL-Debian-X/master/xfce4-session.xml
-sudo mkdir /etc/xdg/disabled-autostart
+sudo mkdir /etc/xdg/autostart/disabled-autostart
 sudo mv /etc/xdg/autostart/nm-applet.desktop /etc/xdg/autostart/disabled-autostart/
 ################################################################################
 echo
