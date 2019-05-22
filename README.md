@@ -14,17 +14,21 @@ Modified from my brother Re4son's version for Kali. This version is soon to be u
                 
                 ```
 
+
 3.  Download and install VcXsrv X Server from here:
     <https://sourceforge.net/projects/vcxsrv/>
 
 ### Starting the GUI:
 As root:
+
                 ```
                 
                 ~/start-xfce
                 
                 ```
+                
 As normal user:
+
                 ```
                 
                 sudo /root/xtart-xfce
